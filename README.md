@@ -5,7 +5,7 @@
 
 ---
 
-## 📋 Project Overview
+##  Project Overview
 
 This project implements a simplified but architecturally accurate GPU in Verilog HDL,
 demonstrating key concepts from real-world GPU design:
@@ -18,7 +18,7 @@ demonstrating key concepts from real-world GPU design:
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
          ┌─────────────────────────────────────┐
@@ -43,7 +43,7 @@ demonstrating key concepts from real-world GPU design:
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 ```
 tiny-gpu-verilog/
@@ -72,7 +72,7 @@ tiny-gpu-verilog/
 
 ---
 
-## 🔧 Tools Used
+##  Tools Used
 
 | Tool | Version | Purpose |
 |------|---------|---------|
@@ -116,7 +116,7 @@ yosys -p "read_verilog gpu_top.v alu.v reg_file.v prog_counter.v shader_core.v m
 
 ---
 
-## ✅ Simulation Results
+##  Simulation Results
 
 ```
 === TINY GPU VECTOR ADD TEST ===
@@ -137,7 +137,7 @@ OR  kernel all_done: 1 (expected 1)
 
 ---
 
-## 📊 Synthesis Report (Yosys)
+##  Synthesis Report (Yosys)
 
 | Metric | Value |
 |--------|-------|
@@ -168,7 +168,7 @@ OR  kernel all_done: 1 (expected 1)
 
 ---
 
-## 👤 Author
+##  Author
 
 **Samarth A Khadakabhavi**  
 Branch: Electronics & Telecommunication Engineering  
@@ -176,7 +176,7 @@ College: College of Engineering Pune (COEP)
 
 ---
 
-## 📚 References
+##  References
 
 - [Tiny GPU Reference](https://github.com/adam-maj/tiny-gpu) — Adam Maj
 - [Icarus Verilog](https://iverilog.icarus.com)
